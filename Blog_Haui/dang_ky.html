@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đăng ký mới</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" type="text/css" href="CSS/css_tai_khoan/dang_ky.css" />
+    </head>
+    <body>
+        <div id="logo_gioi_thieu">
+            <img src="imgs/imgs_home/img_logo.jpg" />
+        </div>
+        <form id="form_dang_ky" method="POST" action="php/add_sinh_vien.php">
+                <p>Đăng ký</p>
+                <span>
+                    <input name="biet_danh" type="text" placeholder="Biệt danh" autofocus autocomplete="off" required/>
+                    <input name="ma_sinh_vien" type="text" placeholder="Mã sinh viên" autocomplete="off" required/>
+                    <input name="truong_dang_hoc" type="text" placeholder="Trường đang theo học" required/>
+                    <input name="email" type="email" placeholder="Email" autocomplete="off" required/>
+                    <input name="ten_dang_nhap" type="text" placeholder="Tên đăng nhập" autocomplete="off" required/>
+                    <input name="mat_khau" type="password" placeholder="Mật khẩu" autocomplete="off" required/>
+                </span>
+                <input id="submit_dang_ky" type="submit" value="Đăng ký" />
+                <div id="canh_bao">
+                </div>
+        </form>
+    </body>
+</html>

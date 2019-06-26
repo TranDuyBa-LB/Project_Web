@@ -1,0 +1,62 @@
+#noi_dung_trang #bai_viet .cac_bai_viet {
+    width: 100%;
+    margin-top: 100px;
+    height: auto;
+    border-bottom: 2px solid rgb(221, 221, 221);
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tieu_de {
+    width: 100%;
+    height: auto;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tieu_de h1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 35px;
+    line-height: 50px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tieu_de h1 a:hover{
+    color: rgb(65, 65, 65);
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tom_tat {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tom_tat p {
+    font-size: 18px;
+    line-height: 30px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac img{
+    height: 100%;
+    width: 20px;
+}
+
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac .chuyen_muc {
+    margin-left: 80px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac .chuyen_muc a {
+    text-decoration: none;
+    color: black;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac .luot_xem {
+    margin-left: 50px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac .luot_xem img{
+    width: 30px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac .binh_luan {
+    margin-left: 50px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac .yeu_thich {
+    margin-left: 50px;
+}
+#noi_dung_trang #bai_viet .cac_bai_viet .tuong_tac .khong_yeu_thich {
+    margin-left: 50px;
+}

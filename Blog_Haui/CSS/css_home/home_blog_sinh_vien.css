@@ -1,0 +1,105 @@
+*{margin: 0px; padding: 0px;}
+body{
+    font-family: Roboto Slab;
+}
+#thanh_cong_cu {
+    /*Thanh công cụ*/
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 10px rgb(219, 219, 219);
+}
+#thanh_cong_cu #logo {
+    float: left;
+}
+#thanh_cong_cu #logo img{
+    /*logo trong thanh công cụ*/
+    height: 60px;
+}
+#thanh_cong_cu .cong_cu {
+    display: block;
+    float: left;
+    margin-left: 70px;
+    height: 55px;
+    width: auto;
+    text-align: center;
+    padding-top: 5px;
+}
+#thanh_cong_cu .cong_cu a{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+#thanh_cong_cu .cong_cu #cac_chuyen_muc {
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    font-size: 20px;
+    display: none;
+}
+#thanh_cong_cu .cong_cu:hover #cac_chuyen_muc{
+    transition: 0.5s;
+    display: block;
+}
+#thanh_cong_cu .cong_cu #cac_chuyen_muc li{
+    height: 50px;
+    padding-top: 5px;
+    border-top: 2px solid rgb(211, 211, 211);
+}
+#thanh_cong_cu .cong_cu a:hover{
+    color: rgb(104, 104, 104);
+}
+#thanh_cong_cu span #icon_nguoi_dung img{
+    height: 50px;
+}
+#thanh_cong_cu #dang_nhap {
+    float: right;
+    display: block;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(218, 218, 218);
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 75px;
+}
+#thanh_cong_cu #dang_nhap:hover{
+    background-color: rgba(218, 218, 218, 0.363);
+    transition: 0.5s;
+}
+#gioi_thieu_trang {
+    width: 100%;
+    height: 220px;
+    /*background-color: rgb(228, 228, 228);*/
+    margin-top: 20px;
+}
+#gioi_thieu_trang img {
+    display: block;
+    height: 220px;
+    margin: 0 auto;
+}
+#noi_dung_trang{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    height: auto;
+}
+#noi_dung_trang #bai_viet {
+    margin-left: 200px;
+    margin-right: 300px;
+    height: auto;
+}
+#noi_dung_trang #quang_cao {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 200px;
+    max-height: 700px;
+    background-color: rgb(131, 4, 4);
+}

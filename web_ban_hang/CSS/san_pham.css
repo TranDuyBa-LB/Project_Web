@@ -1,0 +1,118 @@
+/*Khu vực logo*/
+#logo a img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+#logo div {
+    width: 300px;
+    height: 50px;
+    float: right;
+}
+#logo div a img {
+    width: 50px;
+    height: 50px;
+    margin-left: 5px;
+}
+#logo div a img:hover{
+    width: 55px;
+    height: 55px;
+    transition: 0.3s;    
+}
+/*Khu vực thanh công cụ*/
+#thanh_cong_cu {
+    clear: both;
+    height: 50px;
+    width: auto;
+    background-color:  #69b1fb;
+}
+#thanh_cong_cu ul{
+    margin-left: 250px;
+}
+#thanh_cong_cu ul li{
+    float: left;
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    list-style: none;
+    text-align: center;
+    background-color:  #69b1fb;
+}
+#thanh_cong_cu ul li:hover{
+    background-color: white;
+    transition: 0.5s;    
+}
+#thanh_cong_cu ul li a{
+    color: white;
+    font-size: 30px;
+    line-height: 45px;
+    font-family: Arial, 'Times New Roman';
+    display: block;
+}
+#thanh_cong_cu ul li a:hover{
+    color: #69b1fb;
+    transition: 0.5s;   
+}
+#thanh_cong_cu div{
+    float: right;
+    width:150px;
+    height: 50px;
+    background-color:  #69b1fb;
+}
+/*Khu vực sản phẩm*/
+.thong_tin_san_pham {
+    width: auto;
+    height: 1000px;
+    margin-top: 50px;
+    
+}
+/*ảnh sản phầm*/
+.anh_san_pham {
+    float: left;
+    width:600px;
+    height: 450px;
+    
+}
+.anh_nho {
+    float:left;
+    width: 100px;
+    height: 300px;
+    
+}
+.anh_nho img{
+    float: left;
+    width: 90px;
+    height: 90px;
+    border: silver 2px solid;
+    margin-left: 3px;
+    margin-top: 5px;
+}
+.anh_lon {
+    float: left;
+    margin-left: 20px;
+    width: 400px;
+    height: 350px;
+    
+}
+.anh_lon img{
+    width: 480px;
+    height: 350px;
+}
+.cho {
+    float: left;
+    width: 600px;
+    height: 100px;
+    
+}
+.thong_tin {
+    float: left;
+    margin-left: 20px;
+    margin-right: 100px;
+    width: 500px;
+    height: 400px;
+    
+}
+
+a:link{
+    text-decoration: none;
+}

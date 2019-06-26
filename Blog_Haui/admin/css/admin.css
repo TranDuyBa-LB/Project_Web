@@ -1,0 +1,46 @@
+#noi_dung_trang {
+    width: 100%;
+    height: auto;
+}
+#noi_dung_trang .danh_sach {
+    margin-top: 40px;
+}
+#noi_dung_trang .danh_sach p{
+    background-color: rgb(86, 159, 255);
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#noi_dung_trang .danh_sach table{
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(204, 204, 204);
+}
+#noi_dung_trang .danh_sach table thead td {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(255, 96, 96);
+    height: 40px;
+}
+#noi_dung_trang .danh_sach table tbody td {
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+}
+#noi_dung_trang #cong_cu_admin {
+    position: absolute;
+    width: 600px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    right: 0px;
+    top: 30px;
+}
+#noi_dung_trang #cong_cu_admin form input {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 3px;
+}
